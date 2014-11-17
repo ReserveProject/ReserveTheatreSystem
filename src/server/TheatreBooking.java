@@ -25,7 +25,7 @@ public class TheatreBooking {
         ArrayList<Movie> movie = new ArrayList<Movie>();
         ArrayList<Seat> seat = new ArrayList<Seat>();
         Scanner scan = new Scanner(System.in);
-        FileReader reader = new FileReader("test.txt");
+        FileReader reader = new FileReader("input.txt");
         BufferedReader in = new BufferedReader(reader);
         String inputLine;
         
@@ -43,7 +43,7 @@ public class TheatreBooking {
             }
         }
 
-        // input theatre
+        // input details
         while (true) {
             System.out.print("Enter title name : ");
             String name = scan.next();
