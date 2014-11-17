@@ -13,12 +13,12 @@ import java.util.ArrayList;
  */
 public class Theatre {
 
-    public Theatre(String name, int id) {
+    public Theatre(String name, String id) {
         this.name = name;
         this.id = id;
     }
     private String name;
-    private int id;
+    private String id;
     private ArrayList<Seat> seatList;
     private ArrayList<Schedule> scheduleList;
 
